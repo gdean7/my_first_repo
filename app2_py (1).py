@@ -47,6 +47,6 @@ elif chart_type == 'Line Chart':
 # Include a graphic of the University of New Mexico
 st.subheader('University of New Mexico')
 # You can replace the path below with the path to the graphic you want to use
-image_path = '/University_of_New_Mexico_Main_Campus.jpg'
+image_path = 'https://github.com/gdean7/my_first_repo/blob/main/University_of_New_Mexico_Main_Campus.jpg'
 img = mpimg.imread(image_path)
 st.image(img, caption='University of New Mexico', use_column_width=True)
